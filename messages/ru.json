@@ -1,0 +1,21 @@
+{
+  "navbar": {
+    "services": "Услуги",
+    "team": "Команда",
+    "direction": "Напрaвление",
+    "tools": "Инструменты",
+    "clients": "Клиенты",
+    "portfolio": "Портфолио",
+    "language": "Язык",
+    "contact": "Связаться"
+  },
+  "hero": {
+    "contact": "Связаться",
+    "heading": "IT-Аутсорсинг Компания",
+    "mobileApps": "Разработка мобильных приложений",
+    "erpSystems": "Разработка и внедрение ERP систем",
+    "ui/ux": "UI / UX дизайн",
+    "optimization": "Оптимизация инфраструктуры",
+    "itConsulting": "IT консалтинг"
+  }
+}

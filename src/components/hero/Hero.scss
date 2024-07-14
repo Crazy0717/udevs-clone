@@ -1,0 +1,101 @@
+@use "../../lib/utils/variables" as *;
+@use "../../lib/utils/mixins" as *;
+
+.hero {
+  padding: 30px 200px 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("/images/hero_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+
+  &_left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    .hero_logo {
+      width: 260px;
+    }
+    h1 {
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 54px;
+      color: $secondary;
+    }
+    span {
+      color: $primary;
+    }
+    .Typewriter {
+      z-index: 1;
+    }
+    button {
+      @include btnDefault();
+      padding: 13px 16px;
+      width: clamp(112px, 100%, 248px);
+      margin-top: 10px;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 600;
+      color: #fff;
+    }
+  }
+}
+
+@media screen and (width < 900px) {
+  .hero {
+    padding: 30px 20px 0 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    &_left {
+      align-items: center;
+      text-align: center;
+      gap: 4px;
+      .hero_logo {
+        width: 124px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      button {
+        display: none;
+      }
+    }
+    &_right {
+      img {
+        width: 90vw;
+        max-width: 540px;
+        height: auto;
+      }
+    }
+  }
+}
+@media screen and (900px < width < 1240px) {
+  .hero {
+    padding: 40px 20px 0 20px;
+    &_left {
+      .hero_logo {
+        width: 240px;
+      }
+      h1 {
+        font-size: 32px;
+        line-height: normal;
+      }
+      button {
+        padding: 13px 14px;
+        width: clamp(112px, 100%, 200px);
+        margin-top: 8px;
+        font-size: 20px;
+        line-height: normal;
+      }
+    }
+    &_right {
+      img {
+        max-width: 45vw;
+        height: auto;
+      }
+    }
+  }
+}

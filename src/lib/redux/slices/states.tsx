@@ -26,5 +26,4 @@ const slice = createSlice({
 })
 
 export const { setValue } = slice.actions
-
 export default slice.reducer

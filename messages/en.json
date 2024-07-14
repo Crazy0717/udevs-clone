@@ -1,0 +1,21 @@
+{
+  "navbar": {
+    "services": "Services",
+    "team": "Command",
+    "direction": "Direction",
+    "tools": "Tools",
+    "clients": "Clients",
+    "portfolio": "Portfolio",
+    "language": "Language",
+    "contact": "Contact"
+  },
+  "hero": {
+    "contact": "Contact",
+    "heading": "IT-Outsourcing Company",
+    "mobileApps": "Development of mobile applications",
+    "erpSystems": "Development and implementation ERP systems",
+    "ui/ux": "User interface, User experience design",
+    "optimization": "Optimization IT consulting infrastructure",
+    "itConsulting": "IT consulting"
+  }
+}
