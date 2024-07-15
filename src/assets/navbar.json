@@ -2,13 +2,13 @@
   "navbarLinks": {
     "language": [
       {
-        "circle": "/svg/RussianFlag.svg",
+        "imgUrl": "/svg/RussianFlag.svg",
         "alt": "Russian flag",
         "text": "Рус",
         "locale": "ru"
       },
       {
-        "circle": "/svg/UKFlag.svg",
+        "imgUrl": "/svg/UKFlag.svg",
         "alt": "UK flag",
         "text": "Eng",
         "locale": "en"
@@ -16,49 +16,49 @@
     ],
     "portfolio": [
       {
-        "circle": "/svg/letterD.svg",
+        "imgUrl": "/svg/letterD.svg",
         "alt": "D letter",
         "text": "Delever"
       },
       {
-        "circle": "/svg/letterS.svg",
+        "imgUrl": "/svg/letterS.svg",
         "alt": "S letter",
         "text": "Sms.uz"
       },
       {
-        "circle": "/svg/letterG.svg",
+        "imgUrl": "/svg/letterG.svg",
         "alt": "G letter",
         "text": "Goodzone"
       },
       {
-        "circle": "/svg/letterI.svg",
+        "imgUrl": "/svg/letterI.svg",
         "alt": "I letter",
         "text": "Iman"
       }
     ],
     "direction": [
       {
-        "circle": "/svg/phoneCircle.svg",
+        "imgUrl": "/svg/phone.svg",
         "alt": "phone icon",
         "text": "mobileApps"
       },
       {
-        "circle": "/svg/branchCircle.svg",
+        "imgUrl": "/svg/branch.svg",
         "alt": "branch icon",
         "text": "erpSystems"
       },
       {
-        "circle": "/svg/layerCircle.svg",
+        "imgUrl": "/svg/layer.svg",
         "alt": "layer icon",
         "text": "ui/ux"
       },
       {
-        "circle": "/svg/monitorCircle.svg",
+        "imgUrl": "/svg/monitor.svg",
         "alt": "monitor icon",
         "text": "itConsulting"
       },
       {
-        "circle": "/svg/gearCircle.svg",
+        "imgUrl": "/svg/gear.svg",
         "alt": "gear icon",
         "text": "optimization"
       }

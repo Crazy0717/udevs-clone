@@ -1,0 +1,41 @@
+@use "../../../lib/utils/variables" as *;
+
+.box {
+  padding: 32px;
+  width: 100%;
+  max-width: 360px;
+  background-color: $background;
+  border-radius: 8px;
+  img {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 24px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #18191f;
+  }
+}
+
+@media screen and (width < 900px) {
+  .box {
+    padding: 14px;
+    width: 48%;
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+@media screen and (900px < width < 1240px) {
+  .box {
+    padding: 14px;
+    width: 32%;
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}

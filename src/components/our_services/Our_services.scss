@@ -1,0 +1,32 @@
+@use "../../lib/utils/mixins" as *;
+
+.ourServices {
+  padding: 100px 200px;
+  .ourServices_boxes {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
+  }
+}
+
+@media screen and (width < 900px) {
+  .ourServices {
+    padding: 100px 20px;
+    .ourServices_boxes {
+      margin-top: 50px;
+      row-gap: 12px;
+    }
+  }
+}
+
+@media screen and (900px < width < 1240px) {
+  .ourServices {
+    padding: 100px 20px;
+    .ourServices_boxes {
+      margin-top: 50px;
+      row-gap: 14px;
+    }
+  }
+}

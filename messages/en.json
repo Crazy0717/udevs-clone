@@ -16,6 +16,10 @@
     "erpSystems": "Development and implementation ERP systems",
     "ui/ux": "User interface, User experience design",
     "optimization": "Optimization IT consulting infrastructure",
-    "itConsulting": "IT consulting"
+    "itConsulting": "IT consulting",
+    "team": "Team"
+  },
+  "ourServices": {
+    "ourServices": "Our services"
   }
 }

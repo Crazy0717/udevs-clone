@@ -22,3 +22,20 @@ a {
   padding-top: 70px;
   overflow-x: hidden;
 }
+
+.primary-heading {
+  font-size: 64px;
+  font-weight: 800;
+  color: #1b5bf7;
+}
+
+@media screen and (width < 900px) {
+  .primary-heading {
+    font-size: 32px;
+  }
+}
+@media screen and (900px < width < 1240px) {
+  .primary-heading {
+    font-size: 36px;
+  }
+}

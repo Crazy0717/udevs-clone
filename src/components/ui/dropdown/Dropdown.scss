@@ -4,7 +4,7 @@
   position: relative;
   right: 6px;
   margin-left: 6px;
-// z-index: 3;
+
   &:hover > .dropdown_menu {
     display: flex;
     opacity: 1;
@@ -69,10 +69,21 @@
         width: 280px;
       }
       a {
+        max-width: 70%;
         display: flex;
         align-items: center;
         text-align: left;
         gap: 16px;
+      }
+      .image-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        background-color: $background;
+        border-radius: 50%;
+        
       }
       &:hover {
         background-color: $primary;

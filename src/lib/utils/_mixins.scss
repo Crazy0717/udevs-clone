@@ -10,3 +10,29 @@
     transform: scale(1.04);
   }
 }
+
+@mixin topFadeIn {
+  @keyframes topFadeIn {
+    0% {
+      transform: translatey(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translatey(0);
+      opacity: 1;
+    }
+  }
+}
+
+@mixin bottomFadeIn {
+  @keyframes bottomFadeIn {
+    0% {
+      transform: translatey(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translatey(0);
+      opacity: 1;
+    }
+  }
+}

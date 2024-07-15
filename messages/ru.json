@@ -16,6 +16,10 @@
     "erpSystems": "Разработка и внедрение ERP систем",
     "ui/ux": "UI / UX дизайн",
     "optimization": "Оптимизация инфраструктуры",
-    "itConsulting": "IT консалтинг"
+    "itConsulting": "IT консалтинг",
+    "team": "Выделенная команда"
+  },
+  "ourServices": {
+    "ourServices": "Наши услуги"
   }
 }

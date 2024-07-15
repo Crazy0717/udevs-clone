@@ -8,7 +8,7 @@ import NavSidebar from "./NavSidebar/NavSidebar"
 import "./Navbar.scss"
 
 interface LinkItem {
-  circle: string
+  imgUrl: string
   text: string
   alt: string
 }
@@ -53,12 +53,14 @@ const Navbar = () => {
             <Dropdown linkText={t("direction")} dropdownTitle={t("direction")}>
               {NavbarLinks.navbarLinks.direction.map((item, i) => (
                 <li key={i} className="dropdown-menu-item extended">
-                  <Image
-                    src={item.circle}
-                    alt={item.alt}
-                    width={48}
-                    height={48}
-                  />
+                  <div className="image-wrapper">
+                    <Image
+                      src={item.imgUrl}
+                      alt={item.alt}
+                      width={20}
+                      height={20}
+                    />
+                  </div>
                   <Link href="/">{t2(item.text)}</Link>
                 </li>
               ))}
@@ -75,7 +77,7 @@ const Navbar = () => {
               {NavbarLinks.navbarLinks.portfolio.map((item) => (
                 <li className="dropdown-menu-item extended">
                   <Image
-                    src={item.circle}
+                    src={item.imgUrl}
                     alt={item.alt}
                     width={48}
                     height={48}
@@ -91,7 +93,7 @@ const Navbar = () => {
                 <li className="dropdown-menu-item">
                   <Link href="/" locale={item.locale}>
                     <Image
-                      src={item.circle}
+                      src={item.imgUrl}
                       alt={item.alt}
                       width={28}
                       height={28}
