@@ -19,16 +19,16 @@ const Our_services = ({ title, data }: propsTypes) => {
   }, [])
 
   return (
-    <div className="ourServices">
+    <section className="ourServices">
       <h1 className="primary-heading" ref={h1Ref}>
         {title}
       </h1>
       <div className="ourServices_boxes">
-        {data.map((item) => (
-          <Box title={item.text} imgUrl={item.imgUrl} alt={item.alt} />
+        {data.map((item, i) => (
+          <Box key={i} title={item.text} imgUrl={item.imgUrl} alt={item.alt} />
         ))}
       </div>
-    </div>
+    </section>
   )
 }
 

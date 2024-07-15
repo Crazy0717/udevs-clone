@@ -15,11 +15,15 @@
     "mobileApps": "Development of mobile applications",
     "erpSystems": "Development and implementation ERP systems",
     "ui/ux": "User interface, User experience design",
-    "optimization": "Optimization IT consulting infrastructure",
+    "optimization": "Optimization infrastructure",
     "itConsulting": "IT consulting",
     "team": "Team"
   },
   "ourServices": {
     "ourServices": "Our services"
+  },
+  "ourTeam": {
+    "text": "For each project, we form a team that includes a project manager, business analyst, UI / UX designer, DevOps, QA engineer, backend and front-end developers.",
+    "dedicatedTeam": "Dedicated team"
   }
 }

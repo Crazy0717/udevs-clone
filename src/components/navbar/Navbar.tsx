@@ -74,8 +74,8 @@ const Navbar = () => {
           </li>
           <li>
             <Dropdown linkText={t("portfolio")} dropdownTitle={t("portfolio")}>
-              {NavbarLinks.navbarLinks.portfolio.map((item) => (
-                <li className="dropdown-menu-item extended">
+              {NavbarLinks.navbarLinks.portfolio.map((item, i) => (
+                <li key={i} className="dropdown-menu-item extended">
                   <Image
                     src={item.imgUrl}
                     alt={item.alt}
@@ -89,8 +89,8 @@ const Navbar = () => {
           </li>
           <li>
             <Dropdown linkText={t("language")}>
-              {NavbarLinks.navbarLinks.language.map((item) => (
-                <li className="dropdown-menu-item">
+              {NavbarLinks.navbarLinks.language.map((item, i) => (
+                <li key={i} className="dropdown-menu-item">
                   <Link href="/" locale={item.locale}>
                     <Image
                       src={item.imgUrl}
@@ -109,7 +109,7 @@ const Navbar = () => {
           <Link href="/">{t("contact")}</Link>
         </button>
         <NavSidebar btn_text={t("contact")}>
-          {navbarLinksData.navbarLinks.sidebar.map((item) => (
+          {navbarLinksData.navbarLinks.sidebar.map((item, i) => (
             <li>
               <Link href={item.link}>{t(item.text)}</Link>
             </li>

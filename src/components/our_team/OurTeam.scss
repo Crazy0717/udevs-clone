@@ -1,0 +1,93 @@
+@use "../../lib/utils/variables" as *;
+@use "../../lib/utils/mixins" as *;
+
+.ourTeam {
+  padding: 80px 200px;
+  background-color: $background;
+
+  .ourTeam_content {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    .content_left {
+      color: #464359;
+      max-width: 45%;
+      p {
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: 26px;
+      }
+      .left_counter {
+        font-size: 120px;
+        line-height: 96px;
+        font-weight: 700;
+        color: $primary;
+        margin-bottom: 0;
+      }
+      h3 {
+        font-size: 40px;
+        line-height: 72px;
+        font-weight: 800;
+      }
+    }
+  }
+}
+
+@media screen and (width < 900px) {
+  .ourTeam {
+    padding: 40px 20px 0 20px;
+    .ourTeam_content {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 30px;
+      .content_left {
+        max-width: 100%;
+        p {
+          font-size: 16px;
+          line-height: 30px;
+        }
+        .left_counter {
+          font-size: 80px;
+          line-height: 70px;
+        }
+        h3 {
+          font-size: 24px;
+        }
+      }
+      .content_right {
+        img {
+          width: 100%;
+          max-width: 400px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+@media screen and (900px < width < 1240px) {
+  .ourTeam {
+    padding: 40px 20px 0 20px;
+    .ourTeam_content {
+      .content_left {
+        p {
+          font-size: 18px;
+          line-height: 32px;
+        }
+        .left_counter {
+          font-size: 86px;
+          line-height: 74px;
+        }
+        h3 {
+          font-size: 26px;
+        }
+      }
+      .content_right {
+        img {
+          width: 100%;
+          max-width: 400px;
+          height: auto;
+        }
+      }
+    }
+  }
+}

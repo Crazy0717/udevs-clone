@@ -1,4 +1,4 @@
-import { Hero, Our_services } from "@/components"
+import { Hero, Our_services, OurTeam } from "@/components"
 import { useTranslations } from "next-intl"
 
 export default function Home() {
@@ -24,17 +24,17 @@ export default function Home() {
     {
       imgUrl: "/svg/layer.svg",
       alt: "layer icon",
-      text: t2("uiux"),
-    },
-    {
-      imgUrl: "/svg/monitor.svg",
-      alt: "monitor icon",
-      text: t2("itConsulting"),
+      text: t2("ui/ux"),
     },
     {
       imgUrl: "/svg/gear.svg",
       alt: "gear icon",
       text: t2("optimization"),
+    },
+    {
+      imgUrl: "/svg/monitor.svg",
+      alt: "monitor icon",
+      text: t2("itConsulting"),
     },
   ]
   return (
@@ -44,6 +44,7 @@ export default function Home() {
       </header>
       <main>
         <Our_services title={t("ourServices")} data={OurServicesBoxesData} />
+        <OurTeam title={t2("team")} />
       </main>
     </div>
   )
