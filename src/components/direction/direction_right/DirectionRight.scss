@@ -1,0 +1,38 @@
+.directionRight {
+  padding-left: 10px;
+  width: 100%;
+  max-width: 480px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (width < 900px) {
+  .directionRight {
+    align-items: center;
+    justify-content: center;
+    max-width: none;
+  }
+}
+@media screen and (900px < width < 1240px) {
+  .directionRight {
+    max-width: 46%;
+    img {
+      width: 100%;
+    }
+  }
+}
+@media screen and (1240px < width < 1450px) {
+  .directionRight {
+    max-width: 46%;
+    img {
+      width: 100%;
+    }
+  }
+}

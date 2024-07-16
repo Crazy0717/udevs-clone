@@ -1,0 +1,27 @@
+@use "../../lib/utils/variables" as *;
+@use "../../lib/utils/mixins" as *;
+
+.product {
+  padding: 80px 200px;
+  .product_content {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    .content_left {
+      color: #464359;
+      max-width: 45%;
+      p {
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 500;
+        color: #18191f;
+      }
+   
+      h3 {
+        font-size: 40px;
+        line-height: 72px;
+        font-weight: 800;
+      }
+    }
+  }
+}

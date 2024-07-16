@@ -1,0 +1,30 @@
+{
+  "title": "mobileApps",
+  "text": "text1",
+  "directionBoxesData": [
+    {
+      "imgUrl": "/svg/iosIcon.svg",
+      "alt": "iOS icon",
+      "text": "iOS"
+    },
+    {
+      "imgUrl": "/svg/androidIcon.svg",
+      "alt": "android icon",
+      "text": "Android"
+    },
+    {
+      "imgUrl": "/svg/crossplatformIcon.svg",
+      "alt": "phones icon",
+      "text": "Crossplatform"
+    }
+  ],
+  "technologies": [
+    { "imgUrl": "/svg/swift.svg", "alt": "swift icon", "text": "Swift" },
+    { "imgUrl": "/svg/kotlin.svg", "alt": "kotlin icon", "text": "Kotlin" },
+    { "imgUrl": "/svg/flutter.svg", "alt": "flutter icon", "text": "Flutter" }
+  ],
+  "rightImages": {
+    "backgroundImage": "url(/images/uudevs-bg_pattern.png)",
+    "image": "/images/mobile_dev.png "
+  }
+}

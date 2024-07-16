@@ -1,0 +1,129 @@
+@use "../../lib/utils/variables" as *;
+@use "../../lib/utils/mixins" as *;
+
+.direction {
+  padding: 80px 200px;
+  background-size: cover !important;
+  background-position: 50% !important;
+  background-repeat: no-repeat !important;
+  .primary-heading {
+    max-width: 800px;
+  }
+  .direction_content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    .content_left {
+      color: #464359;
+      max-width: 45%;
+      width: 100%;
+      > p {
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 500;
+        color: #18191f;
+      }
+
+      h3 {
+        font-size: 40px;
+        line-height: 72px;
+        font-weight: 800;
+      }
+      .left_miniBoxes {
+        margin: 40px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 15px;
+        &[data-miniboxesBackColor="#e0e8ff"] {
+          .miniBox {
+            background-color: #e0e8ff;
+          }
+        }
+      }
+      .left_techs {
+        h4 {
+          font-size: 32px;
+          line-height: 40px;
+          font-weight: 800;
+          color: #464359;
+        }
+        .techs_boxes {
+          margin-top: 32px;
+          display: flex;
+          gap: 48px;
+          .tech {
+            p {
+              text-align: center;
+              font-size: 20px;
+              line-height: 30px;
+              font-weight: 600;
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (width < 900px) {
+  .direction {
+    padding: 16px 15px;
+    margin-bottom: 16px;
+    .primary-heading {
+      max-width: 100%;
+    }
+    .direction_content {
+      flex-direction: column-reverse !important;
+      gap: 16px;
+      .content_left {
+        max-width: 100%;
+        > p {
+          font-size: 16px;
+          line-height: 30px;
+        }
+        .left_miniBoxes {
+          margin: 16px 0;
+          row-gap: 8px;
+        }
+        .left_techs {
+          gap: 16px;
+          .tech {
+            p {
+              font-size: 18px;
+            }
+            img {
+              width: 42px;
+              height: 42px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (900px < width < 1240px) {
+  .direction {
+    padding: 30px 15px;
+    .primary-heading {
+      max-width: 600px;
+    }
+    .content_left {
+      .left_miniBoxes {
+        margin: 30px 0 !important;
+      }
+      .left_techs {
+        gap: 16px;
+        .tech {
+          img {
+            width: 44px;
+            height: 44px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (1240px < width < 1450px) {
+}

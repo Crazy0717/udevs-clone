@@ -5,4 +5,7 @@ export {default as Typewriter} from "./ui/typewriter/Typewriter"
 export {default as Our_services} from "./our_services/Our_services"
 export {default as OurTeam} from "./our_team/OurTeam"
 export {default as Counter} from "./ui/counter/Counter"
+export {default as Product} from "./product/Product"
+export {default as Direction} from "./direction/Direction"
+export {default as MiniBox} from "./ui/mini-box/MiniBox"
 

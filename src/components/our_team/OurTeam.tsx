@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl"
-import "./OurTeam.scss"
 import Image from "next/image"
 import Counter from "../ui/counter/Counter"
+import "./OurTeam.scss"
 
 interface propsTypes {
   title: string

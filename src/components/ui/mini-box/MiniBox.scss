@@ -1,0 +1,66 @@
+@use "../../../lib/utils/variables" as *;
+
+.miniBox {
+  padding: 10px 20px 10px 10px;
+  width: 100%;
+  max-width: 150px;
+  background-color: $background;
+  border-radius: 8px;
+  img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 12px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #18191f;
+  }
+}
+
+@media screen and (width < 900px) {
+  .miniBox {
+    padding: 8px;
+    max-width: 32%;
+    img {
+      width: 42px;
+      height: 42px;
+      margin-bottom: 8px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+@media screen and (900px < width < 1240px) {
+  .miniBox {
+    padding: 10px;
+    max-width: 31%;
+    img {
+      width: 44px;
+      height: 44px;
+      margin-bottom: 8px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}
+@media screen and (1240px < width < 1450px) {
+  .miniBox {
+    padding: 10px;
+    max-width: 31%;
+    img {
+      width: 44px;
+      height: 44px;
+      margin-bottom: 8px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}

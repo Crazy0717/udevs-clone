@@ -1,0 +1,41 @@
+{
+  "title": "erpSystems",
+  "text": "text2",
+  "miniboxesBackColor": "#e0e8ff",
+  "directionBoxesData": [
+    {
+      "imgUrl": "/svg/article.svg",
+      "alt": "article icon",
+      "text": "CRM"
+    },
+    {
+      "imgUrl": "/svg/hat.svg",
+      "alt": "hat icon",
+      "text": "eLearning"
+    },
+    {
+      "imgUrl": "/svg/shopbag.svg",
+      "alt": "shopbag icon",
+      "text": "E-Commerce"
+    },
+    {
+      "imgUrl": "/svg/paper.svg",
+      "alt": "paper icon",
+      "text": "POS"
+    },
+    {
+      "imgUrl": "/svg/envelope.svg",
+      "alt": "envelope icon",
+      "text": "Sms / Email"
+    },
+    {
+      "imgUrl": "/svg/barn.svg",
+      "alt": "barn icon",
+      "text": "Warehouse"
+    }
+  ],
+  "rightImages": {
+    "backgroundImage": "url(/images/uudevs-bg_pattern.png)",
+    "image": "/images/laptop1.png"
+  }
+}
