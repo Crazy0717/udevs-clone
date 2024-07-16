@@ -88,14 +88,17 @@
           row-gap: 8px;
         }
         .left_techs {
-          gap: 16px;
-          .tech {
-            p {
-              font-size: 18px;
-            }
-            img {
-              width: 42px;
-              height: 42px;
+          gap: 16px !important;
+          .techs_boxes {
+            gap: 16px;
+            .tech {
+              p {
+                font-size: 18px;
+              }
+              img {
+                width: 42px;
+                height: 42px;
+              }
             }
           }
         }

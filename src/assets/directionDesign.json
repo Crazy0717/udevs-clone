@@ -1,0 +1,50 @@
+{
+  "title": "design",
+  "text": "text3",
+  "directionBoxesData": [
+    {
+      "imgUrl": "/svg/tree.svg",
+      "alt": "tree icon",
+      "text": "UX"
+    },
+    {
+      "imgUrl": "/svg/colorPallate.svg",
+      "alt": "color pallete icon",
+      "text": "UI"
+    },
+    {
+      "imgUrl": "/svg/roadmap.svg",
+      "alt": "roadmap icon",
+      "text": "Prototyping"
+    },
+    {
+      "imgUrl": "/svg/phone.svg",
+      "alt": "phone icon",
+      "text": "Mobile Design"
+    },
+    {
+      "imgUrl": "/svg/monitor.svg",
+      "alt": "monitor icon",
+      "text": "Web Design"
+    },
+    {
+      "imgUrl": "/svg/atomIcon.svg",
+      "alt": "atom icon",
+      "text": "Atomic Design"
+    }
+  ],
+  "technologies": [
+    { "imgUrl": "/svg/figma.svg", "alt": "figma logo", "text": "Figma" },
+    { "imgUrl": "/svg/sketch.svg", "alt": "Sketch logo", "text": "Sketch" },
+    { "imgUrl": "/images/lottie.webp", "alt": "Lottie logo", "text": "Lottie" },
+    {
+      "imgUrl": "/svg/illustrator.svg",
+      "alt": "illustrator icon",
+      "text": "Illustrator"
+    }
+  ],
+  "rightImages": {
+    "backgroundImage": "url(/images/uudevs-bg_pattern.png)",
+    "image": "/images/directionDesign.png"
+  }
+}

@@ -1,10 +1,6 @@
 export function LogoSvg() {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 168 56"
-      fill="none"
-    >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 56" fill="none">
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -20,4 +16,3 @@ export function LogoSvg() {
     </svg>
   )
 }
-

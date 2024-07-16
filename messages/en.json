@@ -29,8 +29,12 @@
   "direction": {
     "text1": "In collaboration with startups, we have learned how to create a creative and functional user interface for mobile applications.",
     "text2": "IT Systems of any level of complexity at a convenient time for you",
+    "text3": "Our company takes a human-centered approach to design",
+    "text4": "Our experienced professionals will help you optimize your infrastructure",
     "technologies": "Technologies",
     "mobileApps": "Development of mobile applications",
-    "erpSystems": "ERP cистемы"
+    "erpSystems": "ERP cистемы",
+    "design": "UI / UX design",
+    "optimizationInfrastructure": "Optimization Infrastructure"
   }
 }

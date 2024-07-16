@@ -1,5 +1,6 @@
 import Image from "next/image"
 import "./Box.scss"
+import { useTranslations } from "next-intl"
 
 interface propsTypes {
   imgUrl: string

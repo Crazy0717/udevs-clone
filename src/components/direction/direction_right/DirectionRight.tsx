@@ -21,7 +21,6 @@ const DirectionRight = ({ images }: propsTypes) => {
           trigger: elRef.current,
           start: "top 98%",
           end: "bottom 60%",
-          markers: true,
         },
       })
       .fromTo(

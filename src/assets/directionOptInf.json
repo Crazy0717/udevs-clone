@@ -1,0 +1,46 @@
+{
+  "title": "optimizationInfrastructure",
+  "text": "text4",
+  "miniboxesBackColor": "#e0e8ff",
+  "directionBoxesData": [
+    {
+      "imgUrl": "/svg/ruler.svg",
+      "alt": "ruler icon",
+      "text": "Architecture"
+    },
+    {
+      "imgUrl": "/svg/processor.svg",
+      "alt": "processor icon",
+      "text": "Auto testing"
+    },
+    {
+      "imgUrl": "/svg/cloudWithLigtning.svg",
+      "alt": "cloud icon",
+      "text": "Stress testing"
+    },
+    {
+      "imgUrl": "/svg/circleChart.svg",
+      "alt": "chart icon",
+      "text": "Load testing"
+    },
+    {
+      "imgUrl": "/svg/infiniteIcon.svg",
+      "alt": "infinite icon",
+      "text": "Devops"
+    },
+    {
+      "imgUrl": "/svg/cloud.svg",
+      "alt": "cloud icon",
+      "text": "Cloud"
+    },
+    {
+      "imgUrl": "/svg/arrows.svg",
+      "alt": "arrows icon",
+      "text": "CI / CD"
+    }
+  ],
+  "rightImages": {
+    "backgroundImage": "url(/images/uudevs-bg_pattern.png)",
+    "image": "/images/laptop1.png"
+  }
+}
