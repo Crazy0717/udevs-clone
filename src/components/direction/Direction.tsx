@@ -14,7 +14,7 @@ interface propsTypes {
     directionBoxesData: { imgUrl: string; alt: string; text: string }[]
     technologies?: { imgUrl: string; alt: string; text: string }[]
     rightImages: {
-      backgroundImage: string
+      backgroundImage?: string
       image: string
     }
   }

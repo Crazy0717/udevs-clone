@@ -1,0 +1,39 @@
+{
+  "title": "itConsulting",
+  "text": "text5",
+  "directionBoxesData": [
+    {
+      "imgUrl": "/svg/webpage.svg",
+      "alt": "webpage icon",
+      "text": "Frontend"
+    },
+    {
+      "imgUrl": "/svg/codeIcon.svg",
+      "alt": "code icon",
+      "text": "Backend"
+    },
+    {
+      "imgUrl": "/svg/ruler.svg",
+      "alt": "ruler icon",
+      "text": "Architecture"
+    },
+    {
+      "imgUrl": "/svg/infiniteIcon.svg",
+      "alt": "infinite icon",
+      "text": "DevOps"
+    },
+    {
+      "imgUrl": "/svg/layer.svg",
+      "alt": "boxes icon",
+      "text": "UX/UI"
+    },
+    {
+      "imgUrl": "/svg/flaskIcon.svg",
+      "alt": "flask icon",
+      "text": "QA"
+    }
+  ],
+  "rightImages": {
+    "image": "/svg/oneHuman.svg"
+  }
+}

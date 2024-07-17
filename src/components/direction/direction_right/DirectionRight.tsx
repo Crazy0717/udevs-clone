@@ -6,7 +6,7 @@ import "./DirectionRight.scss"
 
 interface propsTypes {
   images: {
-    backgroundImage: string
+    backgroundImage?: string
     image: string
   }
 }

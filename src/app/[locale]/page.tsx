@@ -3,7 +3,8 @@ import { useTranslations } from "next-intl"
 import directionMobileAppData from "@/assets/directionMobileApps.json"
 import directionErpSystems from "@/assets/directionErpSystems.json"
 import directionDesign from "@/assets/directionDesign.json"
-import directionIptInf from "@/assets/directionOptInf.json"
+import directionOptInf from "@/assets/directionOptInf.json"
+import directionItConsulting from "@/assets/directionItConsulting.json"
 
 export default function Home() {
   const t = useTranslations("ourServices")
@@ -61,10 +62,14 @@ export default function Home() {
         />
         <Direction data={directionDesign} />
         <Direction
-          data={directionIptInf}
+          data={directionOptInf}
           background="#f4f7ff"
           reversed
           miniboxesBackColor="#e0e8ff"
+        />
+        <Direction
+          data={directionItConsulting}
+          background="url(/images/hero_bg.jpg)"
         />
       </main>
     </div>
