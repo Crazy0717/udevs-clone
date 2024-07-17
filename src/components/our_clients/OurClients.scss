@@ -1,0 +1,88 @@
+@use "../../lib/utils/mixins" as *;
+@use "../../lib/utils/variables" as *;
+
+.ourClients {
+  padding: 30px 0;
+  .primary-heading {
+    padding: 0 200px;
+  }
+
+  .ourClients_content {
+    margin-top: 32px;
+    .marquee-wrapper {
+      padding: 20px 0;
+      width: 100%;
+      overflow-x: hidden;
+      display: flex;
+      justify-content: center;
+      &.normal {
+        .marquee {
+          animation-direction: normal;
+        }
+      }
+    }
+    .marquee {
+      display: flex;
+      gap: 42px;
+      min-width: 100%;
+      flex-shrink: 0;
+      animation: marquee 56s linear infinite;
+      animation-play-state: running;
+      animation-direction: reverse;
+      img {
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+        border-radius: 24px;
+        transition: all 0.4s ease-in-out;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+@keyframes marquee {
+  to {
+    transform: translate(-100%, 0);
+  }
+}
+
+@media screen and (width < 900px) {
+  .ourClients {
+    .primary-heading {
+      padding: 0 20px;
+    }
+    .ourClients_content {
+      .marquee-wrapper {
+        padding: 10px 0;
+        gap: 34px;
+      }
+      .marquee {
+        gap: 34px;
+        img {
+          width: 127px;
+          height: 76px;
+        }
+      }
+    }
+  }
+}
+@media screen and (900px < width < 1240px) {
+  .ourClients {
+    .primary-heading {
+      padding: 0 20px;
+    }
+    .ourClients_content {
+      .marquee-wrapper {
+        padding: 10px 0;
+        gap: 34px;
+      }
+      .marquee {
+        gap: 34px;
+        img {
+          width: 146px;
+          height: 88px;
+        }
+      }
+    }
+  }
+}

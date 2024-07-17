@@ -38,5 +38,8 @@
     "design": "UI / UX Дизайн",
     "optimizationInfrastructure": "Оптимизация инфраструктуры",
     "itConsulting": "IT консалтинг"
+  },
+  "ourClients": {
+    "ourClients": "Наши клиенты"
   }
 }

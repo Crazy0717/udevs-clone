@@ -39,7 +39,7 @@ const Direction = ({
           <p>{t(data.text)}</p>
           <div
             className="left_miniBoxes"
-            data-miniboxesBackColor={miniboxesBackColor}
+            data-miniboxesbackcolor={miniboxesBackColor}
           >
             {data.directionBoxesData.map((item, i) => (
               <MiniBox key={i} item={item} />

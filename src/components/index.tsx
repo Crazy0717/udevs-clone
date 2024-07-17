@@ -8,4 +8,5 @@ export {default as Counter} from "./ui/counter/Counter"
 export {default as Product} from "./product/Product"
 export {default as Direction} from "./direction/Direction"
 export {default as MiniBox} from "./ui/mini-box/MiniBox"
+export {default as OurClients} from "./our_clients/OurClients"
 

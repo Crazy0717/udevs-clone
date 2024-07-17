@@ -1,4 +1,4 @@
-import { Direction, Hero, Our_services, OurTeam } from "@/components"
+import { Direction, Hero, Our_services, OurClients, OurTeam } from "@/components"
 import { useTranslations } from "next-intl"
 import directionMobileAppData from "@/assets/directionMobileApps.json"
 import directionErpSystems from "@/assets/directionErpSystems.json"
@@ -9,6 +9,7 @@ import directionItConsulting from "@/assets/directionItConsulting.json"
 export default function Home() {
   const t = useTranslations("ourServices")
   const t2 = useTranslations("hero")
+  const t3 = useTranslations("ourClients")
 
   const OurServicesBoxesData = [
     {
@@ -71,6 +72,7 @@ export default function Home() {
           data={directionItConsulting}
           background="url(/images/hero_bg.jpg)"
         />
+        <OurClients title={t3("ourClients")}/>
       </main>
     </div>
   )
