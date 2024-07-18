@@ -10,4 +10,5 @@ export {default as Direction} from "./direction/Direction"
 export {default as MiniBox} from "./ui/mini-box/MiniBox"
 export {default as OurClients} from "./our_clients/OurClients"
 export {default as ComponentRight} from "./component_right/ComponentRight"
+export {default as HowWeWork} from "./how_we_work/HowWeWork"
 

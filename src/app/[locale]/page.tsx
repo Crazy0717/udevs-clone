@@ -12,6 +12,7 @@ import {
 import {
   Direction,
   Hero,
+  HowWeWork,
   Our_services,
   OurClients,
   OurTeam,
@@ -98,6 +99,7 @@ export default function Home() {
           reversed
         />
         <Product data={productIman} background="url(/images/hero_bg.jpg)" />
+        <HowWeWork /> 
       </main>
     </div>
   )
