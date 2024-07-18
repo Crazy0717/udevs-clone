@@ -1,0 +1,30 @@
+{
+  "logoUrl": "/svg/imanLongLogo.svg",
+  "text": "text4",
+  "badge": {
+    "iconUrl": "/svg/bankBuilding.svg",
+    "text": "Finance",
+    "bgColor": "#01cab033",
+    "color": "#01CAB0"
+  },
+  "directionBoxesData": [
+    {
+      "imgUrl": "/svg/phone.svg",
+      "alt": "phone icon",
+      "text": "Mobile design"
+    },
+    {
+      "imgUrl": "/svg/sliders.svg",
+      "alt": "code icon",
+      "text": "Admin panel"
+    },
+    {
+      "imgUrl": "/svg/crossplatformIcon.svg",
+      "alt": "phones icon",
+      "text": "Crossplatform"
+    }
+  ],
+  "rightImages": {
+    "image": "/images/imanApp.png"
+  }
+}

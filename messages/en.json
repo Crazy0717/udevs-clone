@@ -41,5 +41,12 @@
   },
   "ourClients": {
     "ourClients": "Our clients"
+  },
+  "product": {
+    "text1": "Smsuz.uz - It is a platform for bulk SMS messaging.",
+    "text2": "Delever - Delivery service automation targeted at both consumers and restaurants.",
+    "text3": "Goodzone - Internet shop of household appliances in Uzbekistan.",
+    "text4": "Iman - It is a mutual financing platform based on the principles of Islamic Finance. Buyers, sellers and investors meet here.",
+    "whatWeDid": "What we did?"
   }
 }

@@ -1,0 +1,40 @@
+{
+  "logoUrl": "/images/goodzoneLogo.png",
+  "text": "text3",
+  "badge": {
+    "iconUrl": "/svg/shopbag.svg",
+    "text": "E-Commerce",
+    "bgColor": "#f5000033",
+    "color": "#F50000"
+  },
+  "directionBoxesData": [
+    {
+      "imgUrl": "/svg/globusWithWireframe.svg",
+      "alt": "globus with wireframe icon",
+      "text": "Website"
+    },
+    {
+      "imgUrl": "/svg/sliders.svg",
+      "alt": "code icon",
+      "text": "Admin panel"
+    },
+    {
+      "imgUrl": "/svg/crossplatformIcon.svg",
+      "alt": "phones icon",
+      "text": "Crossplatform"
+    },
+    {
+      "imgUrl": "/svg/monitor.svg",
+      "alt": "monitor icon",
+      "text": "Web design"
+    },
+    {
+      "imgUrl": "/svg/phone.svg",
+      "alt": "phone icon",
+      "text": "Mobile design"
+    }
+  ],
+  "rightImages": {
+    "image": "/images/goodzone_app.png"
+  }
+}

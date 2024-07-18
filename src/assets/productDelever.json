@@ -1,0 +1,40 @@
+{
+  "logoUrl": "/svg/delever2.svg",
+  "text": "text2",
+  "badge": {
+    "iconUrl": "/svg/speedTruck.svg",
+    "text": "Delivery",
+    "bgColor": "#ff572233",
+    "color": "#ff5722"
+  },
+  "directionBoxesData": [
+    {
+      "imgUrl": "/svg/globusWithWireframe.svg",
+      "alt": "globus with wireframe icon",
+      "text": "Website"
+    },
+    {
+      "imgUrl": "/svg/sliders.svg",
+      "alt": "code icon",
+      "text": "Admin panel"
+    },
+    {
+      "imgUrl": "/svg/crossplatformIcon.svg",
+      "alt": "phones icon",
+      "text": "Crossplatform"
+    },
+    {
+      "imgUrl": "/svg/monitor.svg",
+      "alt": "monitor icon",
+      "text": "Web design"
+    },
+    {
+      "imgUrl": "/svg/phone.svg",
+      "alt": "phone icon",
+      "text": "Mobile design"
+    }
+  ],
+  "rightImages": {
+    "image": "/images/delever_app.png"
+  }
+}

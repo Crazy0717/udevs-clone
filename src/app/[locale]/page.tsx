@@ -1,15 +1,28 @@
-import { Direction, Hero, Our_services, OurClients, OurTeam } from "@/components"
+import {
+  directionDesign,
+  directionErpSystems,
+  directionItConsulting,
+  directionMobileAppData,
+  directionOptInf,
+  productDelever,
+  productGoodzone,
+  productIman,
+  productSmsUz,
+} from "@/assets"
+import {
+  Direction,
+  Hero,
+  Our_services,
+  OurClients,
+  OurTeam,
+  Product,
+} from "@/components"
 import { useTranslations } from "next-intl"
-import directionMobileAppData from "@/assets/directionMobileApps.json"
-import directionErpSystems from "@/assets/directionErpSystems.json"
-import directionDesign from "@/assets/directionDesign.json"
-import directionOptInf from "@/assets/directionOptInf.json"
-import directionItConsulting from "@/assets/directionItConsulting.json"
+import Image from "next/image"
 
 export default function Home() {
   const t = useTranslations("ourServices")
   const t2 = useTranslations("hero")
-  const t3 = useTranslations("ourClients")
 
   const OurServicesBoxesData = [
     {
@@ -72,7 +85,19 @@ export default function Home() {
           data={directionItConsulting}
           background="url(/images/hero_bg.jpg)"
         />
-        <OurClients title={t3("ourClients")}/>
+        <OurClients />
+        <Product
+          data={productDelever}
+          background="url(/images/hero_bg.jpg)"
+          reversed
+        />
+        <Product data={productSmsUz} background="url(/images/hero_bg.jpg)" />
+        <Product
+          data={productGoodzone}
+          background="url(/images/hero_bg.jpg)"
+          reversed
+        />
+        <Product data={productIman} background="url(/images/hero_bg.jpg)" />
       </main>
     </div>
   )

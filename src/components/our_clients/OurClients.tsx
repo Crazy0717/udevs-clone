@@ -1,8 +1,10 @@
 import React from "react"
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 import "./OurClients.scss"
 
-const OurClients = React.memo(({ title }: { title: string }) => {
+const OurClients = React.memo(() => {
+  const t = useTranslations("ourClients")
   const images1 = [
     {
       id: 1,
@@ -57,8 +59,8 @@ const OurClients = React.memo(({ title }: { title: string }) => {
   ]
 
   return (
-    <div className="ourClients">
-      <h2 className="primary-heading">{title}</h2>
+    <section className="ourClients">
+      <h2 className="primary-heading">{t("ourClients")}</h2>
       <div className="ourClients_content">
         <div className="marquee-wrapper normal">
           <div className="marquee">
@@ -137,7 +139,7 @@ const OurClients = React.memo(({ title }: { title: string }) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 })
 

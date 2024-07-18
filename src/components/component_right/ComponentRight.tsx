@@ -2,7 +2,7 @@
 import Image from "next/image"
 import { useLayoutEffect, useRef } from "react"
 import gsap from "gsap"
-import "./DirectionRight.scss"
+import "./ComponentRight.scss"
 
 interface propsTypes {
   images: {
@@ -11,7 +11,7 @@ interface propsTypes {
   }
 }
 
-const DirectionRight = ({ images }: propsTypes) => {
+const ComponentRight = ({ images }: propsTypes) => {
   const elRef = useRef(null)
 
   useLayoutEffect(() => {
@@ -36,7 +36,7 @@ const DirectionRight = ({ images }: propsTypes) => {
   return (
     <div
       ref={elRef}
-      className="directionRight"
+      className="componentRight"
       style={{ background: images.backgroundImage }}
     >
       <Image src={images.image} alt="Two Humans" width={500} height={420} />
@@ -44,4 +44,4 @@ const DirectionRight = ({ images }: propsTypes) => {
   )
 }
 
-export default DirectionRight
+export default ComponentRight

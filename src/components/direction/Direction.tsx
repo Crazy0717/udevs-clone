@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl"
-import DirectionRight from "./direction_right/DirectionRight"
 import MiniBox from "../ui/mini-box/MiniBox"
 import Image from "next/image"
+import ComponentRight from "../component_right/ComponentRight"
 import "./Direction.scss"
 
 interface propsTypes {
@@ -62,7 +62,7 @@ const Direction = ({
             </div>
           </div>
         </div>
-        <DirectionRight images={data.rightImages} />
+        <ComponentRight images={data.rightImages} />
       </div>
     </section>
   )

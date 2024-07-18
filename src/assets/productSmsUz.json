@@ -1,0 +1,30 @@
+{
+  "logoUrl": "/svg/smsUzLongLogo.svg",
+  "text": "text1",
+  "badge": {
+    "iconUrl": "/svg/envelope.svg",
+    "text": "Notification",
+    "bgColor": "#4473e533",
+    "color": "#4473E5"
+  },
+  "directionBoxesData": [
+    {
+      "imgUrl": "/svg/globusWithWireframe.svg",
+      "alt": "globus with wireframe icon",
+      "text": "Website"
+    },
+    {
+      "imgUrl": "/svg/sliders.svg",
+      "alt": "code icon",
+      "text": "Admin panel"
+    },
+    {
+      "imgUrl": "/svg/crossplatformIcon.svg",
+      "alt": "phones icon",
+      "text": "Crossplatform"
+    }
+  ],
+  "rightImages": {
+    "image": "/images/smsuz_app.png"
+  }
+}

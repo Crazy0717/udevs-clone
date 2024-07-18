@@ -1,3 +1,13 @@
+export {default as directionMobileAppData} from "./directionMobileApps.json"
+export {default as directionErpSystems} from "./directionErpSystems.json"
+export {default as directionDesign} from "./directionDesign.json"
+export {default as directionOptInf} from "./directionOptInf.json"
+export {default as directionItConsulting} from "./directionItConsulting.json"
+export {default as productSmsUz} from "./productSmsUz.json"
+export {default as productDelever} from "./productDelever.json"
+export {default as productGoodzone} from "./productGoodzone.json"
+export {default as productIman} from "./productIman.json"
+
 export function LogoSvg() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 56" fill="none">
