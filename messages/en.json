@@ -62,5 +62,13 @@
     "text3": "We will provide you with our free, non-binding application.",
     "text4": "We provide a team for your requirements.",
     "text5": "You will get to know the team and we'll get started."
+  },
+  "contactUs": {
+    "contactUs": "Contact us",
+    "leftTitle": "Leave us a message",
+    "name": "Name",
+    "yourEmail": "Your email",
+    "description": "Briefly describe your project",
+    "send": "Send"
   }
 }

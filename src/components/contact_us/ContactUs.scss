@@ -1,0 +1,120 @@
+@use "../../lib/utils/variables" as *;
+@use "../../lib/utils/mixins" as *;
+
+.contactUs {
+  padding: 80px 200px;
+  background-image: url(/images/hero_bg.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  .contactUs_content {
+    padding: 40px 88px 88px 88px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 2px 10px 28px rgba(75, 0, 129, 0.12);
+    background-color: #fff;
+    .content_left {
+      width: 45%;
+      max-width: 412px;
+      h6 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 30px;
+        color: #0f001a;
+      }
+      button {
+        @include btnDefault();
+        padding: 10px 16px;
+        width: 100%;
+        max-width: 248px;
+        color: #fff;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 600;
+      }
+    }
+    .content_right {
+      margin-top: 44px;
+      width: 45%;
+      max-width: 412px;
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        li {
+          a {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 16px;
+            line-height: 22px;
+            color: #0f001a;
+          }
+        }
+        .social-icons {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+        }
+      }
+      iframe {
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (width < 900px) {
+  .contactUs {
+    padding: 50px 0px;
+    .primary-heading {
+      padding: 0 20px;
+    }
+    .contactUs_content {
+      padding: 40px 20px;
+      margin-top: 0;
+      flex-direction: column;
+      .content_left,
+      .content_right {
+        width: 100%;
+        max-width: 100%;
+      }
+      .content_left {
+        display: flex;
+        flex-direction: column;
+        button {
+          align-self: center;
+        }
+      }
+      .content_right {
+        margin-top: 30px;
+        iframe {
+          display: none !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (900px < width < 1240px) {
+  .contactUs {
+    padding: 50px 0px;
+    .primary-heading {
+      padding: 0 20px;
+    }
+    .contactUs_content {
+      padding: 40px 20px;
+      margin-top: 20px;
+    }
+  }
+}
+@media screen and (1240px < width < 1440px) {
+  .contactUs {
+    .contactUs_content {
+      padding: 30px;
+    }
+  }
+}

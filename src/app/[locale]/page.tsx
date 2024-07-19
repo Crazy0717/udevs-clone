@@ -10,6 +10,7 @@ import {
   productSmsUz,
 } from "@/assets"
 import {
+  ContactUs,
   Direction,
   Hero,
   HowWeWork,
@@ -99,7 +100,8 @@ export default function Home() {
           reversed
         />
         <Product data={productIman} background="url(/images/hero_bg.jpg)" />
-        <HowWeWork /> 
+        <HowWeWork />
+        <ContactUs />
       </main>
     </div>
   )

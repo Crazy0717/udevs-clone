@@ -11,4 +11,6 @@ export {default as MiniBox} from "./ui/mini-box/MiniBox"
 export {default as OurClients} from "./our_clients/OurClients"
 export {default as ComponentRight} from "./component_right/ComponentRight"
 export {default as HowWeWork} from "./how_we_work/HowWeWork"
+export {default as ContactUs} from "./contact_us/ContactUs"
+export {default as Input} from "./ui/input/Input"
 
