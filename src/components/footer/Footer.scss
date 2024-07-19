@@ -1,0 +1,89 @@
+@use "../../lib//utils/variables" as *;
+
+footer {
+  padding: 48px 200px 24px 200px;
+  background-color: $background;
+  .footer_top {
+    display: flex;
+    justify-content: center;
+    svg {
+      width: 106px;
+    }
+  }
+  .footer_content {
+    margin: 44px 0 32px 0;
+    display: flex;
+    justify-content: space-between;
+    ul {
+      h5 {
+        color: #313133;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 18px;
+      }
+      a {
+        font-size: 18px;
+        line-height: 32px;
+        color: $primary;
+      }
+    }
+  }
+  .footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-size: 14px;
+      color: $primary;
+    }
+    ol {
+      display: flex;
+      gap: 16px;
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background-color: #1b5bf71a;
+      }
+    }
+  }
+}
+@media screen and (width < 900px) {
+  footer {
+    padding: 16px 20px 40px 20px;
+    .footer_content {
+      flex-wrap: wrap;
+      gap: 30px;
+      ul {
+        h5 {
+          margin-bottom: 8px;
+        }
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+    .footer_bottom {
+      margin-top: 42px;
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 18px;
+      ol {
+        a {
+          width: 34px;
+          height: 34px;
+          img {
+            width: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (900px < width < 1240px) {
+  footer {
+    padding: 20px;
+  }
+}

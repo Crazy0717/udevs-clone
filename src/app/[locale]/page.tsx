@@ -12,6 +12,7 @@ import {
 import {
   ContactUs,
   Direction,
+  Footer,
   Hero,
   HowWeWork,
   Our_services,
@@ -20,7 +21,7 @@ import {
   Product,
 } from "@/components"
 import { useTranslations } from "next-intl"
-import Image from "next/image"
+import { useEffect } from "react"
 
 export default function Home() {
   const t = useTranslations("ourServices")
@@ -58,6 +59,7 @@ export default function Home() {
       text: t2("itConsulting"),
     },
   ]
+
   return (
     <div className="home">
       <header>
@@ -103,6 +105,7 @@ export default function Home() {
         <HowWeWork />
         <ContactUs />
       </main>
+      <Footer />
     </div>
   )
 }

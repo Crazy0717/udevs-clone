@@ -34,7 +34,7 @@
     "text5": "We can improve the qualifications of your employees thereby increasing the efficiency of your company.",
     "technologies": "Technologies",
     "mobileApps": "Development of mobile applications",
-    "erpSystems": "ERP cистемы",
+    "erpSystems": "ERP systems",
     "design": "UI / UX design",
     "optimizationInfrastructure": "Optimization Infrastructure",
     "itConsulting": "IT consulting"
@@ -70,5 +70,21 @@
     "yourEmail": "Your email",
     "description": "Briefly describe your project",
     "send": "Send"
+  },
+
+  "footer": {
+    "aboutUs": "About us",
+    "direction": "Direction",
+    "command": "Command",
+    "tools": "Tools",
+    "clients": "Clients",
+    "services": "Services",
+
+    "text1": "Development of mobile applications",
+    "text2": "Development and implementation ERP systems",
+    "text3": "User interface, User experience design",
+    "text4": "IT consulting",
+    "text5": "Optimization infrastructure",
+    "portfolio": "Portfolio"
   }
 }
