@@ -10,7 +10,7 @@ interface propsTypes {
 const OurTeam = ({ title }: propsTypes) => {
   const t = useTranslations("ourTeam")
   return (
-    <section className="ourTeam">
+    <section className="ourTeam" id="ourTeam">
       <h2 className="primary-heading">{title}</h2>
       <div className="ourTeam_content">
         <div className="content_left">

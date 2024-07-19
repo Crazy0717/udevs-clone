@@ -1,6 +1,7 @@
 {
   "title": "mobileApps",
   "text": "text1",
+  "id": "mobileAppsComponent",
   "directionBoxesData": [
     {
       "imgUrl": "/svg/iosIcon.svg",

@@ -1,6 +1,7 @@
 {
   "logoUrl": "/svg/smsUzLongLogo.svg",
   "text": "text1",
+  "id": "productSmsUz",
   "badge": {
     "iconUrl": "/svg/envelope.svg",
     "text": "Notification",

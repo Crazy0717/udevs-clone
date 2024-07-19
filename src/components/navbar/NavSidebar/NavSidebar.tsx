@@ -1,11 +1,11 @@
 "use client"
 import Link from "next/link"
-import "./NavSidebar.scss"
 import { LogoSvg } from "@/assets"
 import { HiBars3 } from "react-icons/hi2"
 import React, { useState } from "react"
 import { IoMdClose } from "react-icons/io"
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa"
+import "./NavSidebar.scss"
 
 interface propsTypes {
   children: React.ReactNode
@@ -39,11 +39,11 @@ const NavSidebar = ({ children, btn_text }: propsTypes) => {
           </div>
         </div>
         <div className="sidebar_main">
-          <ol>{children}</ol>
+          <ol onClick={() => setIsSidebarOpen(false)}>{children}</ol>
         </div>
         <div className="sidebar_footer">
           <button>
-            <Link href="/">{btn_text}</Link>
+            <Link href="/#contactUs">{btn_text}</Link>
           </button>
           <div className="nav_social-links">
             <Link href="/" className="circle">

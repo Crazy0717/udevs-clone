@@ -19,7 +19,7 @@ const Our_services = ({ title, data }: propsTypes) => {
   }, [])
 
   return (
-    <section className="ourServices">
+    <section className="ourServices" id="ourServices">
       <h1 className="primary-heading" ref={h1Ref}>
         {title}
       </h1>

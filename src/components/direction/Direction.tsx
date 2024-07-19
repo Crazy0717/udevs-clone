@@ -11,6 +11,7 @@ interface propsTypes {
   data: {
     title: string
     text: string
+    id: string
     directionBoxesData: { imgUrl: string; alt: string; text: string }[]
     technologies?: { imgUrl: string; alt: string; text: string }[]
     rightImages: {
@@ -29,7 +30,11 @@ const Direction = ({
   const t = useTranslations("direction")
 
   return (
-    <section style={{ background: background }} className="direction">
+    <section
+      style={{ background: background }}
+      className="direction"
+      id={data.id}
+    >
       <h2 className="primary-heading">{t(data.title)}</h2>
       <div
         className="direction_content"

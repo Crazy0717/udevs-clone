@@ -18,62 +18,71 @@
       {
         "imgUrl": "/svg/letterD.svg",
         "alt": "D letter",
-        "text": "Delever"
+        "text": "Delever",
+        "targetEl": "productDelever"
       },
       {
         "imgUrl": "/svg/letterS.svg",
         "alt": "S letter",
-        "text": "Sms.uz"
+        "text": "Sms.uz",
+        "targetEl": "productSmsUz"
       },
       {
         "imgUrl": "/svg/letterG.svg",
         "alt": "G letter",
-        "text": "Goodzone"
+        "text": "Goodzone",
+        "targetEl": "productGoodzone"
       },
       {
         "imgUrl": "/svg/letterI.svg",
         "alt": "I letter",
-        "text": "Iman"
+        "text": "Iman",
+        "targetEl": "productImanApp"
       }
     ],
     "direction": [
       {
         "imgUrl": "/svg/phone.svg",
         "alt": "phone icon",
-        "text": "mobileApps"
+        "text": "mobileApps",
+        "targetEl": "mobileAppsComponent"
       },
       {
         "imgUrl": "/svg/branch.svg",
         "alt": "branch icon",
-        "text": "erpSystems"
+        "text": "erpSystems",
+        "targetEl": "erpSystemsComponent"
       },
       {
         "imgUrl": "/svg/layer.svg",
         "alt": "layer icon",
-        "text": "ui/ux"
+        "text": "ui/ux",
+        "targetEl": "designComponent"
       },
       {
         "imgUrl": "/svg/monitor.svg",
         "alt": "monitor icon",
-        "text": "itConsulting"
+        "text": "itConsulting",
+        "targetEl": "itConsultingComponent"
       },
       {
         "imgUrl": "/svg/gear.svg",
         "alt": "gear icon",
-        "text": "optimization"
+        "text": "optimization",
+        "targetEl": "optimizationInfrastructureComponent"
       }
     ],
     "sidebar": [
       {
-        "link": "/",
+        "link": "/#mobileAppsComponent",
         "text": "services"
       },
       {
-        "link": "/",
+        "link": "/#ourClients",
         "text": "clients"
       },
       {
-        "link": "/",
+        "link": "/#ourTeam",
         "text": "team"
       }
     ]

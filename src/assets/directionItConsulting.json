@@ -1,6 +1,7 @@
 {
   "title": "itConsulting",
   "text": "text5",
+  "id": "itConsultingComponent",
   "directionBoxesData": [
     {
       "imgUrl": "/svg/webpage.svg",

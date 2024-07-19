@@ -1,7 +1,7 @@
 @use "../../lib//utils/variables" as *;
 
 footer {
-  padding: 48px 200px 24px 200px;
+  padding: 50px 200px 24px 200px;
   background-color: $background;
   .footer_top {
     display: flex;
@@ -29,8 +29,10 @@ footer {
     }
   }
   .footer_bottom {
+    padding-top: 24px;
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #1b5bf733;
     p {
       font-size: 14px;
       color: $primary;

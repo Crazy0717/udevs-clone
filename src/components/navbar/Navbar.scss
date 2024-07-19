@@ -46,17 +46,16 @@ nav {
         }
       }
     }
-    button {
+    .contactUsBtn {
       @include btnDefault();
       padding: 12px 16px;
       min-width: 112px;
       max-width: 248px;
-      a {
-        font-size: 14px;
-        font-weight: 500;
-        color: #fff;
-        letter-spacing: 0.8px;
-      }
+      font-size: 14px;
+      font-weight: 500;
+      color: #fff;
+      letter-spacing: 0.8px;
+      text-align: center;
     }
   }
 }
@@ -66,7 +65,7 @@ nav {
     padding: 10px 20px;
     .nav_right {
       .nav_list,
-      button {
+      > a {
         display: none;
       }
     }
@@ -80,13 +79,10 @@ nav {
       .nav_list {
         gap: 24px;
       }
-      button {
+      > a {
         padding: 10px 10px;
         min-width: auto;
-
-        a {
-          font-size: 12px;
-        }
+        font-size: 12px;
       }
     }
   }

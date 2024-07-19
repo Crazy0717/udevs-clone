@@ -1,6 +1,7 @@
 {
   "logoUrl": "/images/goodzoneLogo.png",
   "text": "text3",
+  "id": "productGoodzone",
   "badge": {
     "iconUrl": "/svg/shopbag.svg",
     "text": "E-Commerce",

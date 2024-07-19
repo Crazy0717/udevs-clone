@@ -11,6 +11,7 @@ interface LinkItem {
   imgUrl: string
   text: string
   alt: string
+  targetEl: string
 }
 interface LanguageItem extends LinkItem {
   locale: string
@@ -44,15 +45,19 @@ const Navbar = () => {
       <div className="nav_right">
         <ul className="nav_list">
           <li>
-            <Link href={"/"}>{t("services")}</Link>
+            <Link href="/#ourServices">{t("services")}</Link>
           </li>
           <li>
-            <Link href={"/"}>{t("team")}</Link>
+            <Link href="/#ourTeam">{t("team")}</Link>
           </li>
           <li>
             <Dropdown linkText={t("direction")} dropdownTitle={t("direction")}>
               {NavbarLinks.navbarLinks.direction.map((item, i) => (
-                <li key={i} className="dropdown-menu-item extended">
+                <Link
+                  href={`/#${item.targetEl}`}
+                  key={i}
+                  className="dropdown-menu-item extended"
+                >
                   <div className="image-wrapper">
                     <Image
                       src={item.imgUrl}
@@ -61,29 +66,33 @@ const Navbar = () => {
                       height={20}
                     />
                   </div>
-                  <Link href="/">{t2(item.text)}</Link>
-                </li>
+                  <p>{t2(item.text)}</p>
+                </Link>
               ))}
             </Dropdown>
           </li>
           <li>
-            <Link href={"/"}>{t("tools")}</Link>
+            <Link href="/">{t("tools")}</Link>
           </li>
           <li>
-            <Link href={"/"}>{t("clients")}</Link>
+            <Link href="/#ourClients">{t("clients")}</Link>
           </li>
           <li>
             <Dropdown linkText={t("portfolio")} dropdownTitle={t("portfolio")}>
               {NavbarLinks.navbarLinks.portfolio.map((item, i) => (
-                <li key={i} className="dropdown-menu-item extended">
+                <Link
+                  href={`/#${item.targetEl}`}
+                  key={i}
+                  className="dropdown-menu-item extended"
+                >
                   <Image
                     src={item.imgUrl}
                     alt={item.alt}
                     width={48}
                     height={48}
                   />
-                  <Link href="/">{item.text}</Link>
-                </li>
+                  <p>{item.text}</p>
+                </Link>
               ))}
             </Dropdown>
           </li>
@@ -105,9 +114,9 @@ const Navbar = () => {
             </Dropdown>
           </li>
         </ul>
-        <button>
-          <Link href="/">{t("contact")}</Link>
-        </button>
+        <Link role="button" className="contactUsBtn" href="/#contactUs">
+          {t("contact")}
+        </Link>
         <NavSidebar btn_text={t("contact")}>
           {navbarLinksData.navbarLinks.sidebar.map((item, i) => (
             <li>

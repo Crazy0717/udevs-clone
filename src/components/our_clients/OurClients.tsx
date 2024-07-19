@@ -59,7 +59,7 @@ const OurClients = React.memo(() => {
   ]
 
   return (
-    <section className="ourClients">
+    <section className="ourClients" id="ourClients">
       <h2 className="primary-heading">{t("ourClients")}</h2>
       <div className="ourClients_content">
         <div className="marquee-wrapper normal">

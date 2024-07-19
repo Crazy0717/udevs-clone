@@ -1,6 +1,7 @@
 {
   "logoUrl": "/svg/imanLongLogo.svg",
   "text": "text4",
+  "id": "productImanApp",
   "badge": {
     "iconUrl": "/svg/bankBuilding.svg",
     "text": "Finance",

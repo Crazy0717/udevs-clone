@@ -36,6 +36,8 @@
 @media screen and (width < 900px) {
   .ourTeam {
     padding: 40px 20px 0 20px;
+    scroll-margin-top: 20px;
+
     .ourTeam_content {
       flex-direction: column-reverse;
       align-items: center;

@@ -11,6 +11,7 @@ interface propsTypes {
   data: {
     logoUrl: string
     text: string
+    id: string
     directionBoxesData: { imgUrl: string; alt: string; text: string }[]
     badge: {
       iconUrl: string
@@ -34,7 +35,11 @@ const Product = ({
   const t = useTranslations("product")
 
   return (
-    <section style={{ background: background }} className="product">
+    <section
+      style={{ background: background }}
+      className="product"
+      id={data.id}
+    >
       <div
         className="product_content"
         style={{ flexDirection: reversed ? "row-reverse" : "row" }}

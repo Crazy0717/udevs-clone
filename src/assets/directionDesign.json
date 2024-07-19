@@ -1,6 +1,7 @@
 {
   "title": "design",
   "text": "text3",
+  "id": "designComponent",
   "directionBoxesData": [
     {
       "imgUrl": "/svg/tree.svg",

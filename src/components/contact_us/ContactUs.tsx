@@ -7,7 +7,7 @@ import Link from "next/link"
 const ContactUs = () => {
   const t = useTranslations("contactUs")
   return (
-    <div className="contactUs">
+    <div className="contactUs" id="contactUs">
       <div className="primary-heading">{t("contactUs")}</div>
       <div className="contactUs_content">
         <form className="content_left">

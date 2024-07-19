@@ -1,6 +1,7 @@
 {
   "logoUrl": "/svg/delever2.svg",
   "text": "text2",
+  "id": "productDelever",
   "badge": {
     "iconUrl": "/svg/speedTruck.svg",
     "text": "Delivery",
