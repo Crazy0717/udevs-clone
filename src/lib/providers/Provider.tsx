@@ -1,19 +1,9 @@
-"use client"
-import React, { Suspense, useRef } from "react"
-import { Provider } from "react-redux"
-import { AppStore, makeStore } from "../redux/store"
+import React, { Suspense } from "react"
 
 const Providers = ({ children }: { children: React.ReactNode }) => {
-  const storeRef = useRef<AppStore>()
-  if (!storeRef.current) {
-    storeRef.current = makeStore()
-  }
-
   return (
     <>
-      <Suspense fallback={<div></div>}>
-        <Provider store={storeRef.current}>{children}</Provider>
-      </Suspense>
+      <Suspense fallback={<div></div>}>{children}</Suspense>
     </>
   )
 }
