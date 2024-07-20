@@ -119,7 +119,7 @@ const Navbar = () => {
         </Link>
         <NavSidebar btn_text={t("contact")}>
           {navbarLinksData.navbarLinks.sidebar.map((item, i) => (
-            <li>
+            <li key={i}>
               <Link href={item.link}>{t(item.text)}</Link>
             </li>
           ))}
