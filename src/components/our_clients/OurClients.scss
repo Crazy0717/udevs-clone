@@ -27,7 +27,7 @@
       gap: 42px;
       min-width: 100%;
       flex-shrink: 0;
-      animation: marquee 56s linear infinite;
+      animation: marquee 60s linear infinite;
       animation-play-state: running;
       animation-direction: reverse;
       img {
@@ -83,6 +83,15 @@
           width: 146px;
           height: 88px;
         }
+      }
+    }
+  }
+}
+@media screen and (1240px < width < 1500px) {
+  .ourClients {
+    .ourClients_content {
+      .marquee-wrapper {
+        gap: 34px;
       }
     }
   }

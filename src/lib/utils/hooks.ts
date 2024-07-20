@@ -9,6 +9,7 @@ interface FadeInConfig {
   startPosition?: string
   endPosition?: string
   showMarkers?: boolean
+  delay?: number
 }
 
 gsap.registerPlugin(ScrollTrigger)
@@ -18,6 +19,7 @@ const useFadeIn = () => {
     const {
       targetEl,
       duration,
+      delay = 0,
       startPosition = "top 90%",
       endPosition = "bottom 60%",
       showMarkers = false,
@@ -40,7 +42,7 @@ const useFadeIn = () => {
       .fromTo(
         targetEl,
         { y: -40, opacity: 0 },
-        { y: 0, opacity: 1, duration: duration }
+        { y: 0, opacity: 1, duration: duration, delay: delay }
       )
   }
 

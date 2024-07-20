@@ -19,6 +19,7 @@ import {
   OurClients,
   OurTeam,
   Product,
+  Tools,
 } from "@/components"
 import { useTranslations } from "next-intl"
 import { useEffect } from "react"
@@ -26,6 +27,7 @@ import { useEffect } from "react"
 export default function Home() {
   const t = useTranslations("ourServices")
   const t2 = useTranslations("hero")
+  const t3 = useTranslations("navbar")
 
   const OurServicesBoxesData = [
     {
@@ -89,6 +91,7 @@ export default function Home() {
           data={directionItConsulting}
           background="url(/images/hero_bg.jpg)"
         />
+        <Tools title={t3("tools")}/>
         <OurClients />
         <Product
           data={productDelever}

@@ -14,4 +14,6 @@ export {default as HowWeWork} from "./how_we_work/HowWeWork"
 export {default as ContactUs} from "./contact_us/ContactUs"
 export {default as Input} from "./ui/input/Input"
 export {default as Footer} from "./footer/Footer"
+export {default as Tools} from "./tools/Tools"
+export {default as RadioButton} from "./ui/radioButton/RadioButton"
 

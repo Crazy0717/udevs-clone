@@ -1,0 +1,79 @@
+@use "../../lib/utils/variables" as *;
+
+.tools {
+  padding: 80px 200px;
+  background-color: $background;
+  .tools_content {
+    margin-top: 80px;
+    .content_checkboxes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .content_boxes {
+      margin-top: 48px;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      justify-content: space-between;
+      gap: 8px;
+    }
+  }
+}
+.techBox {
+  min-width: 86px;
+  max-height: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 14px;
+  border-radius: 5px;
+  transition: 0.2s linear;
+  p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (width < 900px) {
+  .tools {
+    padding: 20px;
+    .tools_content {
+      margin-top: 22px;
+      .content_boxes {
+        margin-top: 20px;
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+  }
+  .techBox {
+    min-width: 0;
+    height: 10vh;
+    min-height: 54px;
+    gap: 5px;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+@media screen and (900px < width < 1240px) {
+  .tools {
+    padding: 20px;
+    .tools_content {
+      margin-top: 40px;
+      .content_boxes {
+        margin-top: 28px;
+      }
+    }
+  }
+}
+@media screen and (1240px < width < 1510px) {
+  .tools {
+    .tools_content {
+      .content_boxes {
+        grid-template-columns: repeat(10, 1fr);
+      }
+    }
+  }
+}
