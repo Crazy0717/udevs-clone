@@ -18,49 +18,51 @@ const Footer = () => {
         <ul>
           <h5>{t("aboutUs")}</h5>
           <li>
-            <Link href="/">{t("direction")}</Link>
+            <Link href="/#ourServices">{t("direction")}</Link>
           </li>
           <li>
-            <Link href="/">{t("command")}</Link>
+            <Link href="/#ourTeam">{t("command")}</Link>
           </li>
           <li>
-            <Link href="/">{t("tools")}</Link>
+            <Link href="/#tools">{t("tools")}</Link>
           </li>
           <li>
-            <Link href="/">{t("clients")}</Link>
+            <Link href="/#ourClients">{t("clients")}</Link>
           </li>
         </ul>
         <ul>
           <h5>{t("services")}</h5>
           <li>
-            <Link href="/">{t("text1")}</Link>
+            <Link href="/#mobileAppsComponent">{t("text1")}</Link>
           </li>
           <li>
-            <Link href="/">{t("text2")}</Link>
+            <Link href="/#erpSystemsComponent">{t("text2")}</Link>
           </li>
           <li>
-            <Link href="/">{t("text3")}</Link>
+            <Link href="/#designComponent">{t("text3")}</Link>
           </li>
           <li>
-            <Link href="/">{t("text4")}</Link>
+            <Link href="/#itConsultingComponent">{t("text4")}</Link>
           </li>
           <li>
-            <Link href="/">{t("text5")}</Link>
+            <Link href="/#optimizationInfrastructureComponent">
+              {t("text5")}
+            </Link>
           </li>
         </ul>
         <ul>
           <h5>{t("portfolio")}</h5>
           <li>
-            <Link href="/">Delever</Link>
+            <Link href="/#productDelever">Delever</Link>
           </li>
           <li>
-            <Link href="/">Sms.uz</Link>
+            <Link href="/#productSmsUz">Sms.uz</Link>
           </li>
           <li>
-            <Link href="/">Goodzone</Link>
+            <Link href="/#productGoodzone">Goodzone</Link>
           </li>
           <li>
-            <Link href="/">Iman</Link>
+            <Link href="/#productImanApp">Iman</Link>
           </li>
         </ul>
       </div>

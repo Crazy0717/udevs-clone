@@ -42,7 +42,7 @@ const NavSidebar = ({ children, btn_text }: propsTypes) => {
           <ol onClick={() => setIsSidebarOpen(false)}>{children}</ol>
         </div>
         <div className="sidebar_footer">
-          <button>
+          <button onClick={() => setIsSidebarOpen(false)}>
             <Link href="/#contactUs">{btn_text}</Link>
           </button>
           <div className="nav_social-links">

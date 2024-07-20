@@ -72,7 +72,7 @@ const Navbar = () => {
             </Dropdown>
           </li>
           <li>
-            <Link href="/">{t("tools")}</Link>
+            <Link href="/#tools">{t("tools")}</Link>
           </li>
           <li>
             <Link href="/#ourClients">{t("clients")}</Link>

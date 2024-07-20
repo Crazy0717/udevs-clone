@@ -11,7 +11,7 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div></div>}>
         <Provider store={storeRef.current}>{children}</Provider>
       </Suspense>
     </>

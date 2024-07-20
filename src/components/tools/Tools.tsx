@@ -95,7 +95,7 @@ const Tools = ({ title }: { title: string }) => {
     fadeIn({ targetEl: contentRef.current, duration: 0.4, delay: 0.1 })
   }, [])
   return (
-    <div className="tools">
+    <div className="tools" id="tools">
       <div className="primary-heading" ref={h1Ref}>
         {title}
       </div>
@@ -155,7 +155,13 @@ const TechBox = React.memo(({ item, currentCategory }: techBoxProps) => {
           : "transparent",
       }}
     >
-      <Image src={item.imgUrl} alt={item.name} width={24} height={24} />
+      <Image
+        src={item.imgUrl}
+        alt={item.name}
+        width={24}
+        height={24}
+        loading="lazy"
+      />
       <p>{item.name}</p>
     </div>
   )
