@@ -27,7 +27,7 @@ const Hero = () => {
           />
         </h1>
         <button>
-          <Link href="/">{t("contact")}</Link>
+          <Link href="/#contactUs">{t("contact")}</Link>
         </button>
       </div>
       <div className="hero_right">
