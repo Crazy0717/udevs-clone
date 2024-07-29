@@ -11,7 +11,7 @@ const Footer = () => {
     <footer>
       <div className="footer_top">
         <Link href="/" aria-label="Home">
-          <LogoSvg role="img" aria-hidden="true" />
+          <LogoSvg aria-hidden="true" />
         </Link>
       </div>
       <div className="footer_content">

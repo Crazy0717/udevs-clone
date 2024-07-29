@@ -39,7 +39,7 @@ const Navbar = () => {
     <nav>
       <div className="nav_logo">
         <Link href="/" aria-label="Home">
-          <LogoSvg role="img" aria-hidden="true" />
+          <LogoSvg aria-hidden="true" />
         </Link>
       </div>
       <div className="nav_right">
