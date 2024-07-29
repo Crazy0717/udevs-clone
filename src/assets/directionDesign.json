@@ -45,7 +45,7 @@
     }
   ],
   "rightImages": {
-    "backgroundImage": "url(/images/uudevs-bg_pattern.png)",
-    "image": "/images/directionDesign.png"
+    "backgroundImage": "url(/images/uudevs-bg_pattern.webp)",
+    "image": "/images/directionDesign.webp"
   }
 }

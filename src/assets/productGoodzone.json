@@ -1,5 +1,5 @@
 {
-  "logoUrl": "/images/goodzoneLogo.png",
+  "logoUrl": "/images/goodzoneLogo.webp",
   "text": "text3",
   "id": "productGoodzone",
   "badge": {
@@ -36,6 +36,6 @@
     }
   ],
   "rightImages": {
-    "image": "/images/goodzone_app.png"
+    "image": "/images/goodzone_app.webp"
   }
 }

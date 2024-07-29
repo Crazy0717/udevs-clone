@@ -58,7 +58,7 @@ const Tools = ({ title }: { title: string }) => {
     { name: "PHP", category: "backend", imgUrl: "/svg/php.svg" },
     { name: "GO", category: "backend", imgUrl: "/svg/go.svg" },
     { name: "Ant Design", category: "frontend", imgUrl: "/svg/antdesign.svg" },
-    { name: "Gatsby.JS", category: "frontend", imgUrl: "/svg/gatsbyjs.svg" },
+    { name: "Gatsby.JS", category: "frontend", imgUrl: "/images/gatsbyJs.webp" },
     { name: "Vue.JS", category: "frontend", imgUrl: "/svg/vuejs.svg" },
     { name: "Principle", category: "design", imgUrl: "/svg/principle.svg" },
     { name: "Sketch", category: "design", imgUrl: "/svg/sketch.svg" },

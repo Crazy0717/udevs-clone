@@ -1,6 +1,6 @@
+import "./globals.css"
 import type { Metadata } from "next"
 import { Manrope } from "next/font/google"
-import "./globals.css"
 import Providers from "@/lib/providers/Provider"
 import { useLocale } from "next-intl"
 import { notFound } from "next/navigation"
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "Udevs - компания по разработке веб и мобильных приложения под заказ. Разработка IT cистемы любого уровня сложности в удобные для вас сроки.",
   icons: {
-    icon: "/images/favicon.png",
+    icon: "/images/favicon.webp",
   },
 }
 

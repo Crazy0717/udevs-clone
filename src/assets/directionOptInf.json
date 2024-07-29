@@ -42,7 +42,7 @@
     }
   ],
   "rightImages": {
-    "backgroundImage": "url(/images/uudevs-bg_pattern.png)",
-    "image": "/images/laptop1.png"
+    "backgroundImage": "url(/images/uudevs-bg_pattern.webp)",
+    "image": "/images/laptop1.webp"
   }
 }

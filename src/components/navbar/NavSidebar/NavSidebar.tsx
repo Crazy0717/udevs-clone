@@ -1,10 +1,8 @@
 "use client"
 import Link from "next/link"
 import { LogoSvg } from "@/assets"
-import { HiBars3 } from "react-icons/hi2"
-import React, { useState } from "react"
-import { IoMdClose } from "react-icons/io"
-import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa"
+import { useState } from "react"
+import Image from "next/image"
 import "./NavSidebar.scss"
 
 interface propsTypes {
@@ -21,7 +19,7 @@ const NavSidebar = ({ children, btn_text }: propsTypes) => {
         className="nav_bars"
         role="button"
       >
-        <HiBars3 />
+        <Image src="/svg/barsIcon.svg" alt="bars icon" width={26} height={26} />
       </div>
       <div className={isSidebarOpen ? "nav_sidebar active" : "nav_sidebar"}>
         <div className="sidebar_top">
@@ -35,7 +33,13 @@ const NavSidebar = ({ children, btn_text }: propsTypes) => {
             className="nav_close-btn"
             role="button"
           >
-            <IoMdClose />
+            <Image
+              src="/svg/closeIcon.svg"
+              alt="bars icon"
+              width={26}
+              height={26}
+              loading="lazy"
+            />
           </div>
         </div>
         <div className="sidebar_main">
@@ -47,13 +51,31 @@ const NavSidebar = ({ children, btn_text }: propsTypes) => {
           </button>
           <div className="nav_social-links">
             <Link href="/" className="circle">
-              <FaInstagram />
+              <Image
+                src="/svg/instagramIcon.svg"
+                alt="bars icon"
+                width={20}
+                height={20}
+                loading="lazy"
+              />
             </Link>
             <Link href="/" className="circle">
-              <FaTwitter />
+              <Image
+                src="/svg/twitterIcon.svg"
+                alt="bars icon"
+                width={20}
+                height={20}
+                loading="lazy"
+              />
             </Link>
             <Link href="/" className="circle">
-              <FaYoutube />
+              <Image
+                src="/svg/youtubeIcon.svg"
+                alt="bars icon"
+                width={20}
+                height={20}
+                loading="lazy"
+              />
             </Link>
           </div>
         </div>

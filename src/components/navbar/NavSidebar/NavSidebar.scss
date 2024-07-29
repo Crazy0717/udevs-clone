@@ -3,7 +3,6 @@
 
 .nav_bars {
   display: none;
-  color: $primary;
   font-size: 26px;
 }
 .nav_close-btn {
@@ -70,9 +69,8 @@
         align-items: center;
         justify-content: center;
         border-radius: 50%;
-        background-color: $primary;
-        font-size: 20px;
-        color: #fff;
+        background-color: #1b5bf71a;
+        border: 0.6px solid $primary;
       }
     }
   }

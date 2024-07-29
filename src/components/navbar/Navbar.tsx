@@ -5,7 +5,7 @@ import { Dropdown } from "../"
 import navbarLinksData from "@/assets/navbar.json"
 import Image from "next/image"
 import NavSidebar from "./NavSidebar/NavSidebar"
-import "./Navbar.scss"
+import "./Navbar.scss"  
 
 interface LinkItem {
   imgUrl: string

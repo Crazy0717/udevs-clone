@@ -20,6 +20,10 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+orginal site lighthouse stats => https://pagespeed.web.dev/analysis/https-udevs-io/1i9q6fojw4?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=ru&utm_source=lh-chrome-ext
+
+my clone lighthouse stats (before image optimization)=> https://pagespeed.web.dev/analysis/https-udevs-clone-xsbt-4e61afxzj-crazy0717s-projects-vercel-app-ru/plaiq7xcom?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=ru&utm_source=lh-chrome-ext
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

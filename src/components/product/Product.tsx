@@ -50,6 +50,7 @@ const Product = ({
             alt="there should be image"
             width={300}
             height={64}
+            loading="lazy"
           />
 
           <div

@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
-<path d="M35.0003 18.6665H21.0003C19.7117 18.6665 18.667 19.7112 18.667 20.9998V34.9998C18.667 36.2885 19.7117 37.3332 21.0003 37.3332H35.0003C36.289 37.3332 37.3337 36.2885 37.3337 34.9998V20.9998C37.3337 19.7112 36.289 18.6665 35.0003 18.6665Z" stroke="#1B5BF7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7 18.6665H9.33333" stroke="#1B5BF7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7 37.3335H9.33333" stroke="#1B5BF7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18.667 7V9.33333" stroke="#1B5BF7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M37.333 7V9.33333" stroke="#1B5BF7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M46.667 18.6665H49.0003" stroke="#1B5BF7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M46.667 37.3335H49.0003" stroke="#1B5BF7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18.667 46.6665V48.9998" stroke="#1B5BF7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M37.333 46.6665V48.9998" stroke="#1B5BF7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="none" stroke="#1b5bf7" stroke-width="3.5" stroke-linejoin="round" xmlns:v="https://vecta.io/nano"><path d="M35 18.667H21c-1.289 0-2.333 1.045-2.333 2.333v14c0 1.289 1.045 2.333 2.333 2.333h14c1.289 0 2.333-1.045 2.333-2.333V21c0-1.289-1.045-2.333-2.333-2.333z"/><path d="M7 18.667h2.333M7 37.334h2.333M18.667 7v2.333M37.333 7v2.333m9.334 9.334H49m-2.333 18.667H49m-30.333 9.333V49m18.666-2.333V49" stroke-linecap="round"/></svg>

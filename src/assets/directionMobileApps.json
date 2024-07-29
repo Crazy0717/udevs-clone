@@ -25,7 +25,7 @@
     { "imgUrl": "/svg/flutter.svg", "alt": "flutter icon", "text": "Flutter" }
   ],
   "rightImages": {
-    "backgroundImage": "url(/images/uudevs-bg_pattern.png)",
-    "image": "/images/mobile_dev.png"
+    "backgroundImage": "url(/images/uudevs-bg_pattern.webp)",
+    "image": "/images/mobile_dev.webp"
   }
 }

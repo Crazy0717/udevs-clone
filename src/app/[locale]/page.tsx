@@ -72,7 +72,7 @@ export default function Home() {
         <OurTeam title={t2("team")} />
         <Direction
           data={directionMobileAppData}
-          background="url(/images/hero_bg.jpg)"
+          background="url(/images/hero_bg.webp)"
         />
         <Direction
           data={directionErpSystems}
@@ -89,22 +89,22 @@ export default function Home() {
         />
         <Direction
           data={directionItConsulting}
-          background="url(/images/hero_bg.jpg)"
+          background="url(/images/hero_bg.webp)"
         />
         <Tools title={t3("tools")}/>
         <OurClients />
         <Product
           data={productDelever}
-          background="url(/images/hero_bg.jpg)"
+          background="url(/images/hero_bg.webp)"
           reversed
         />
-        <Product data={productSmsUz} background="url(/images/hero_bg.jpg)" />
+        <Product data={productSmsUz} background="url(/images/hero_bg.webp)" />
         <Product
           data={productGoodzone}
-          background="url(/images/hero_bg.jpg)"
+          background="url(/images/hero_bg.webp)"
           reversed
         />
-        <Product data={productIman} background="url(/images/hero_bg.jpg)" />
+        <Product data={productIman} background="url(/images/hero_bg.webp)" />
         <HowWeWork />
         <ContactUs />
       </main>
