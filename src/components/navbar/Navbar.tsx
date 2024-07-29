@@ -5,7 +5,7 @@ import { Dropdown } from "../"
 import navbarLinksData from "@/assets/navbar.json"
 import Image from "next/image"
 import NavSidebar from "./NavSidebar/NavSidebar"
-import "./Navbar.scss"  
+import "./Navbar.scss"
 
 interface LinkItem {
   imgUrl: string
@@ -38,8 +38,8 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav_logo">
-        <Link href="/">
-          <LogoSvg />
+        <Link href="/" aria-label="Home">
+          <LogoSvg role="img" aria-hidden="true" />
         </Link>
       </div>
       <div className="nav_right">

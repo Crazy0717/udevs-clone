@@ -10,8 +10,8 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer_top">
-        <Link href="/">
-          <LogoSvg />
+        <Link href="/" aria-label="Home">
+          <LogoSvg role="img" aria-hidden="true" />
         </Link>
       </div>
       <div className="footer_content">
