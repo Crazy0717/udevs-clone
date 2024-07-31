@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link"
 import { LogoSvg } from "@/assets"
-import { useEffect, useState } from "react"
+import { useEffect, useLayoutEffect, useState } from "react"
 import Image from "next/image"
 import "./NavSidebar.scss"
 
@@ -14,7 +14,7 @@ const NavSidebar = ({ children, btn_text }: propsTypes) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   const [isHydrated, setIsHydrated] = useState(false)
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     setIsHydrated(true)
   }, [])
 
