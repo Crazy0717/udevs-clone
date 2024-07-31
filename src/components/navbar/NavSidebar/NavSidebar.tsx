@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link"
 import { LogoSvg } from "@/assets"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Image from "next/image"
 import "./NavSidebar.scss"
 
@@ -12,6 +12,13 @@ interface propsTypes {
 
 const NavSidebar = ({ children, btn_text }: propsTypes) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
+  const [isHydrated, setIsHydrated] = useState(false)
+
+  useEffect(() => {
+    setIsHydrated(true)
+  }, [])
+
+  if (!isHydrated) return null // to prevent the sidebar from appearing on loading on large screens
   return (
     <>
       <div

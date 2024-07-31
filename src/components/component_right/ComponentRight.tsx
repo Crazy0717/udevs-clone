@@ -21,7 +21,6 @@ const ComponentRight = ({ images }: propsTypes) => {
           trigger: elRef.current,
           start: "top 100%",
           end: "bottom 60%",
-          markers: true,
         },
       })
       .fromTo(
