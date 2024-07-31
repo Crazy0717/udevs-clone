@@ -3,6 +3,7 @@
 
 nav {
   @include topFadeIn();
+  max-width: 1550px;
   width: 100%;
   position: fixed;
   padding: 14px 190px;

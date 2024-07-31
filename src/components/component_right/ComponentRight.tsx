@@ -19,8 +19,9 @@ const ComponentRight = ({ images }: propsTypes) => {
       .timeline({
         scrollTrigger: {
           trigger: elRef.current,
-          start: "top 98%",
+          start: "top 100%",
           end: "bottom 60%",
+          markers: true,
         },
       })
       .fromTo(
