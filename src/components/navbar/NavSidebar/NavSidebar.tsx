@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link"
-import { LogoSvg } from "@/assets"
-import { useEffect, useLayoutEffect, useState } from "react"
+import { LogoSvg } from "../../../../public/assets"
+import { useLayoutEffect, useState } from "react"
 import Image from "next/image"
 import "./NavSidebar.scss"
 

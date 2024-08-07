@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl"
 import Link from "next/link"
-import { LogoSvg } from "@/assets"
+import { LogoSvg } from "../../../public/assets"
 import Typewriter from "../ui/typewriter/Typewriter"
 import Image from "next/image"
 import "./Hero.scss"

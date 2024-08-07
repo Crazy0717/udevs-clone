@@ -8,21 +8,23 @@ import {
   productGoodzone,
   productIman,
   productSmsUz,
-} from "@/assets"
+} from "../../../public/assets"
 import {
   ContactUs,
   Direction,
   Footer,
   Hero,
   HowWeWork,
-  Our_services,
   OurClients,
   OurTeam,
   Product,
-  Tools,
 } from "@/components"
 import { useTranslations } from "next-intl"
-import { useEffect } from "react"
+import dynamic from "next/dynamic"
+const Tools = dynamic(() => import("../../components/tools/Tools"))
+const Our_services = dynamic(
+  () => import("../../components/our_services/Our_services")
+)
 
 export default function Home() {
   const t = useTranslations("ourServices")
@@ -91,7 +93,7 @@ export default function Home() {
           data={directionItConsulting}
           background="url(/images/hero_bg.webp)"
         />
-        <Tools title={t3("tools")}/>
+        <Tools title={t3("tools")} />
         <OurClients />
         <Product
           data={productDelever}

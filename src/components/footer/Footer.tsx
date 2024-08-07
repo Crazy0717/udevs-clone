@@ -1,4 +1,4 @@
-import { LogoSvg } from "@/assets"
+import { LogoSvg } from "../../../public/assets"
 import Link from "next/link"
 import { useTranslations } from "next-intl"
 import Image from "next/image"
