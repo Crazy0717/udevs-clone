@@ -2,7 +2,7 @@
 @use "../../../lib/utils/mixins" as *;
 
 .nav_bars {
-  display: none;
+  display: none !important;
   font-size: 26px;
 }
 .nav_close-btn {
@@ -78,6 +78,6 @@
 
 @media screen and (width < 900px) {
   .nav_bars {
-    display: inline-block;
+    display: inline-block !important;
   }
 }
