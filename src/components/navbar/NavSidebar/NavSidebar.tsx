@@ -31,7 +31,7 @@ const NavSidebar = ({ children, btn_text }: propsTypes) => {
       <div className={isSidebarOpen ? "nav_sidebar active" : "nav_sidebar"}>
         <div className="sidebar_top">
           <div className="nav_logo">
-            <Link href="/">
+            <Link aria-label="home" href="/">
               <LogoSvg />
             </Link>
           </div>
@@ -53,32 +53,37 @@ const NavSidebar = ({ children, btn_text }: propsTypes) => {
           <ol onClick={() => setIsSidebarOpen(false)}>{children}</ol>
         </div>
         <div className="sidebar_footer">
-          <button onClick={() => setIsSidebarOpen(false)}>
-            <Link href="/#contactUs">{btn_text}</Link>
+          <button
+            onClick={() => setIsSidebarOpen(false)}
+            aria-label="Close sidebar and go to contact us"
+          >
+            <Link href="/#contactUs" aria-label={btn_text}>
+              {btn_text}
+            </Link>
           </button>
           <div className="nav_social-links">
-            <Link href="/" className="circle">
+            <Link href="/" className="circle" aria-label="Instagram">
               <Image
                 src="/svg/instagramIcon.svg"
-                alt="bars icon"
+                alt="Instagram icon"
                 width={20}
                 height={20}
                 loading="lazy"
               />
             </Link>
-            <Link href="/" className="circle">
+            <Link href="/" className="circle" aria-label="Twitter">
               <Image
                 src="/svg/twitterIcon.svg"
-                alt="bars icon"
+                alt="Twitter icon"
                 width={20}
                 height={20}
                 loading="lazy"
               />
             </Link>
-            <Link href="/" className="circle">
+            <Link href="/" className="circle" aria-label="YouTube">
               <Image
                 src="/svg/youtubeIcon.svg"
-                alt="bars icon"
+                alt="YouTube icon"
                 width={20}
                 height={20}
                 loading="lazy"

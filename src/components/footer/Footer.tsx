@@ -18,34 +18,53 @@ const Footer = () => {
         <ul>
           <h5>{t("aboutUs")}</h5>
           <li>
-            <Link href="/#ourServices">{t("direction")}</Link>
+            <Link href="/#ourServices" aria-label={t("direction")}>
+              {t("direction")}
+            </Link>
           </li>
           <li>
-            <Link href="/#ourTeam">{t("command")}</Link>
+            <Link href="/#ourTeam" aria-label={t("command")}>
+              {t("command")}
+            </Link>
           </li>
           <li>
-            <Link href="/#tools">{t("tools")}</Link>
+            <Link href="/#tools" aria-label={t("tools")}>
+              {t("tools")}
+            </Link>
           </li>
           <li>
-            <Link href="/#ourClients">{t("clients")}</Link>
+            <Link href="/#ourClients" aria-label={t("clients")}>
+              {t("clients")}
+            </Link>
           </li>
         </ul>
         <ul>
           <h5>{t("services")}</h5>
           <li>
-            <Link href="/#mobileAppsComponent">{t("text1")}</Link>
+            <Link href="/#mobileAppsComponent" aria-label={t("text1")}>
+              {t("text1")}
+            </Link>
           </li>
           <li>
-            <Link href="/#erpSystemsComponent">{t("text2")}</Link>
+            <Link href="/#erpSystemsComponent" aria-label={t("text2")}>
+              {t("text2")}
+            </Link>
           </li>
           <li>
-            <Link href="/#designComponent">{t("text3")}</Link>
+            <Link href="/#designComponent" aria-label={t("text3")}>
+              {t("text3")}
+            </Link>
           </li>
           <li>
-            <Link href="/#itConsultingComponent">{t("text4")}</Link>
+            <Link href="/#itConsultingComponent" aria-label={t("text4")}>
+              {t("text4")}
+            </Link>
           </li>
           <li>
-            <Link href="/#optimizationInfrastructureComponent">
+            <Link
+              href="/#optimizationInfrastructureComponent"
+              aria-label={t("text5")}
+            >
               {t("text5")}
             </Link>
           </li>
@@ -53,42 +72,50 @@ const Footer = () => {
         <ul>
           <h5>{t("portfolio")}</h5>
           <li>
-            <Link href="/#productDelever">Delever</Link>
+            <Link href="/#productDelever" aria-label="Delever">
+              Delever
+            </Link>
           </li>
           <li>
-            <Link href="/#productSmsUz">Sms.uz</Link>
+            <Link href="/#productSmsUz" aria-label="Sms.uz">
+              Sms.uz
+            </Link>
           </li>
           <li>
-            <Link href="/#productGoodzone">Goodzone</Link>
+            <Link href="/#productGoodzone" aria-label="Goodzone">
+              Goodzone
+            </Link>
           </li>
           <li>
-            <Link href="/#productImanApp">Iman</Link>
+            <Link href="/#productImanApp" aria-label="Iman">
+              Iman
+            </Link>
           </li>
         </ul>
       </div>
       <div className="footer_bottom">
         <p>© 2024 Udevs. All rights reserved</p>
         <ol>
-          <Link href="/">
+          <Link href="/" aria-label="Instagram">
             <Image
               src="/svg/instagramIcon.svg"
-              alt="instagram icon"
+              alt="Instagram icon"
               width={24}
               height={24}
             />
           </Link>
-          <Link href="/">
+          <Link href="/" aria-label="Twitter">
             <Image
               src="/svg/twitterIcon.svg"
-              alt="youtube icon"
+              alt="Twitter icon"
               width={24}
               height={24}
             />
           </Link>
-          <Link href="/">
+          <Link href="/" aria-label="YouTube">
             <Image
               src="/svg/youtubeIcon.svg"
-              alt="instagram icon"
+              alt="YouTube icon"
               width={24}
               height={24}
             />

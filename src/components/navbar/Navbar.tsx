@@ -45,10 +45,14 @@ const Navbar = () => {
       <div className="nav_right">
         <ul className="nav_list">
           <li>
-            <Link href="/#ourServices">{t("services")}</Link>
+            <Link href="/#ourServices" aria-label={t("services")}>
+              {t("services")}
+            </Link>
           </li>
           <li>
-            <Link href="/#ourTeam">{t("team")}</Link>
+            <Link href="/#ourTeam" aria-label={t("team")}>
+              {t("team")}
+            </Link>
           </li>
           <li>
             <Dropdown linkText={t("direction")} dropdownTitle={t("direction")}>
@@ -57,6 +61,7 @@ const Navbar = () => {
                   href={`/#${item.targetEl}`}
                   key={i}
                   className="dropdown-menu-item extended"
+                  aria-label={item.text}
                 >
                   <div className="image-wrapper">
                     <Image
@@ -72,10 +77,14 @@ const Navbar = () => {
             </Dropdown>
           </li>
           <li>
-            <Link href="/#tools">{t("tools")}</Link>
+            <Link href="/#tools" aria-label={t("tools")}>
+              {t("tools")}
+            </Link>
           </li>
           <li>
-            <Link href="/#ourClients">{t("clients")}</Link>
+            <Link href="/#ourClients" aria-label={t("clients")}>
+              {t("clients")}
+            </Link>
           </li>
           <li>
             <Dropdown linkText={t("portfolio")} dropdownTitle={t("portfolio")}>
@@ -84,6 +93,7 @@ const Navbar = () => {
                   href={`/#${item.targetEl}`}
                   key={i}
                   className="dropdown-menu-item extended"
+                  aria-label={item.text}
                 >
                   <Image
                     src={item.imgUrl}
@@ -100,7 +110,7 @@ const Navbar = () => {
             <Dropdown linkText={t("language")}>
               {NavbarLinks.navbarLinks.language.map((item, i) => (
                 <li key={i} className="dropdown-menu-item">
-                  <Link href="/" locale={item.locale}>
+                  <Link href="/" locale={item.locale} aria-label={t(item.text)}>
                     <Image
                       src={item.imgUrl}
                       alt={item.alt}
@@ -114,13 +124,20 @@ const Navbar = () => {
             </Dropdown>
           </li>
         </ul>
-        <Link role="button" className="contactUsBtn" href="/#contactUs">
+        <Link
+          role="button"
+          className="contactUsBtn"
+          href="/#contactUs"
+          aria-label={t("contact")}
+        >
           {t("contact")}
         </Link>
         <NavSidebar btn_text={t("contact")}>
           {navbarLinksData.navbarLinks.sidebar.map((item, i) => (
             <li key={i}>
-              <Link href={item.link}>{t(item.text)}</Link>
+              <Link href={item.link} aria-label={t(item.text)}>
+                {t(item.text)}
+              </Link>
             </li>
           ))}
         </NavSidebar>
