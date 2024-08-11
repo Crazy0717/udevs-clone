@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/images/favicon.webp",
   },
+  manifest: "/manifest.json",
+  themeColor: "#FFFFFF",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
 }
 
 export default function RootLayout({
@@ -34,6 +37,13 @@ export default function RootLayout({
   }
   return (
     <html lang={locale}>
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="Udevs clone" />
+        <link rel="apple-touch-icon" href="/images/icon-192x192.png" />
+      </head>
       <Providers>
         <body className={manrope.className}>
           <Navbar />
